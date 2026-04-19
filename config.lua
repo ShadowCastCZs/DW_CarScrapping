@@ -9,7 +9,9 @@ Config = {}
 Config.Debug = false
 
 -- Jak hráč spouští rozebírání u auta (klávesa, dosah, jak často se kontroluje okolí).
+-- BuiltinKeybind = false: žádné E u auta — spouštění jen z jiného scriptu (export TryScrapVehicle).
 Config.Interaction = {
+    BuiltinKeybind = true,
     Key = 38, -- E — seznam kláves: https://docs.fivem.net/docs/game-references/controls/
     Radius = 3.0,
     ScanIntervalFar = 1000,
