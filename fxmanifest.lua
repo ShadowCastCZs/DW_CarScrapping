@@ -5,8 +5,8 @@ lua54 'yes'
 
 name 'DW_CarScrapping'
 author 'DarkWave'
-description 'ESX + ox_lib vehicle scrapping (export TryScrapVehicle, optional builtin E)'
-version '1.1.0'
+description 'ESX + ox_lib multi-step vehicle scrapping (worksites, part delivery, final shell step)'
+version '2.0.0'
 
 shared_scripts {
     '@ox_lib/init.lua',
